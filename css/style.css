@@ -15,11 +15,14 @@ html,
     }
   }
 .view{
-  background-image: url('../images/bckg.jpg');
+  background-image: url('../images/BeFunky-photo.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  opacity: 0.9;
+  opacity: 0.8;
+}
+.landing{
+
 }
   .top-nav-collapse {
     background-color: #78909c !important;
@@ -34,16 +37,40 @@ html,
       background: #78909c !important;
     }
   }
-
+#spanText{
+  color: #AB99D6;
+}
+#spanText1{
+  color: #C11448;
+}
+#spanText2{
+  color: #DDDD20;
+}
+#spanhead{
+  color: #A4DD20;
+}
+#spanText3{
+  color: #2ecc71;
+}
+#mouse{
+  padding-top: 15%;
+  padding-bottom: 1%;
+  padding-left: 50%;
+}
   h1 {
     letter-spacing: 8px;
+    color: white;
+    font-family: 'Bad Script', cursive;
+    font-size: 80px;
+    font-weight:bold;
   }
 
   h5 {
     letter-spacing: 3px;
+    font-weight:bolder;
   }
 
   .hr-light {
-    border-top: 3px solid #fff;
+    border-top: 3px solid ##BBC837;
     width: 80px;
   }
