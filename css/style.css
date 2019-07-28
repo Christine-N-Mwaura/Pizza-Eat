@@ -15,11 +15,11 @@ html,
     }
   }
 .view{
-  background-image: url('../images/BeFunky-photo.jpg');
+  background-image: url('../images/3.webp');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  opacity: 0.8;
+  opacity: 0.9 grey;
 }
 .landing{
 
@@ -74,3 +74,30 @@ html,
     border-top: 3px solid ##BBC837;
     width: 80px;
   }
+.bodyMenu{
+  background-image: url("../images/2.gif");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+.btn .fas, .btn .fab, .btn .far {
+      margin-left: 3px;
+    }
+
+    h6 {
+      line-height: 1.7;
+    }
+
+    footer.page-footer {
+      margin-top: 0px;
+      padding-top: 0px;
+    }
+
+    body {
+      background-color: #eee;
+    }
+
+    .btn.peach-gradient {
+      color: #fff !important;
+    }
