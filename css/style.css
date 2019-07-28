@@ -15,7 +15,7 @@ html,
     }
   }
 .view{
-  background-image: url('../images/3.webp');
+  background-image: url('../images/bckg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -101,3 +101,38 @@ html,
     .btn.peach-gradient {
       color: #fff !important;
     }
+.contact{
+  background-image: url("../images/contact-photo1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+  font-style: italic;
+}
+#form label{
+  color: white;
+  font-size: 100%;
+}
+#pcontact{
+  font-style: italic;
+  font-weight: 600;
+  font-size: 17px;
+  padding-right: 30px;
+}
+#contactcard{
+  background-color: transparent;
+}
+.sendicon{
+  background-color: transparent;
+
+}
+.h3contact{
+  font-weight: 800;
+}
+#navcontact{
+  background-color: #A67C00;
+}
+#aboutUs{
+  background-color: #A67C00;
+  font-family: 'Love Ya Like A Sister',cursive;
+}
