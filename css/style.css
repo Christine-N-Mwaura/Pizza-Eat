@@ -1,107 +1,122 @@
+* {
+  scroll-behavior: smooth;
+}
+
 html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+@media (max-width: 740px) {
+  html,
   body,
   header,
   .view {
-    height: 100%;
+    height: 100vh;
   }
+}
 
-
-  @media (max-width: 740px) {
-    html,
-    body,
-    header,
-    .view {
-      height: 100vh;
-    }
-  }
-.view{
+.view {
   background-image: url('../images/bckg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
   opacity: 0.9 grey;
 }
-.landing{
 
+.landing {}
+
+.top-nav-collapse {
+  background-color: #78909c !important;
 }
-  .top-nav-collapse {
-    background-color: #78909c !important;
-  }
 
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
   .navbar:not(.top-nav-collapse) {
-    background: transparent !important;
+    background: #78909c !important;
   }
+}
 
-  @media (max-width: 991px) {
-    .navbar:not(.top-nav-collapse) {
-      background: #78909c !important;
-    }
-  }
-#spanText{
+#spanText {
   color: #AB99D6;
 }
-#spanText1{
+
+#spanText1 {
   color: #C11448;
 }
-#spanText2{
+
+#spanText2 {
   color: #DDDD20;
 }
-#spanhead{
+
+#spanhead {
   color: #A4DD20;
 }
-#spanText3{
+
+#spanText3 {
   color: #2ecc71;
 }
-#mouse{
+
+#mouse {
   padding-top: 15%;
   padding-bottom: 1%;
   padding-left: 50%;
 }
-  h1 {
-    letter-spacing: 8px;
-    color: white;
-    font-family: 'Bad Script', cursive;
-    font-size: 80px;
-    font-weight:bold;
-  }
 
-  h5 {
-    letter-spacing: 3px;
-    font-weight:bolder;
-  }
+h1 {
+  letter-spacing: 8px;
+  color: white;
+  font-family: 'Bad Script', cursive;
+  font-size: 80px;
+  font-weight: bold;
+}
 
-  .hr-light {
-    border-top: 3px solid ##BBC837;
-    width: 80px;
-  }
-.bodyMenu{
-  background-image: url("../images/2.gif");
+h5 {
+  letter-spacing: 3px;
+  font-weight: bolder;
+}
+
+.hr-light {
+  border-top: 3px solid ##BBC837;
+  width: 80px;
+}
+
+.bodyMenu {
+  background-image: url("../images/road.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-
 }
-.btn .fas, .btn .fab, .btn .far {
-      margin-left: 3px;
-    }
 
-    h6 {
-      line-height: 1.7;
-    }
+.btn .fas,
+.btn .fab,
+.btn .far {
+  margin-left: 3px;
+}
 
-    footer.page-footer {
-      margin-top: 0px;
-      padding-top: 0px;
-    }
+h6 {
+  line-height: 1.7;
+}
 
-    body {
-      background-color: #eee;
-    }
+footer.page-footer {
+  margin-top: 0px;
+  padding-top: 0px;
+}
 
-    .btn.peach-gradient {
-      color: #fff !important;
-    }
-.contact{
+body {
+  background-color: #eee;
+}
+
+.btn.peach-gradient {
+  color: #fff !important;
+}
+
+.contact {
   background-image: url("../images/contact-photo1.jpg");
   background-repeat: no-repeat;
   background-size: cover;
@@ -109,30 +124,54 @@ html,
   color: white;
   font-style: italic;
 }
-#form label{
+
+#form label {
   color: white;
   font-size: 100%;
 }
-#pcontact{
+
+#pcontact {
   font-style: italic;
   font-weight: 600;
   font-size: 17px;
   padding-right: 30px;
 }
-#contactcard{
-  background-color: transparent;
-}
-.sendicon{
-  background-color: transparent;
 
+#contactcard {
+  background-color: transparent;
 }
-.h3contact{
+
+.sendicon {
+  background-color: transparent;
+}
+
+.h3contact {
   font-weight: 800;
 }
-#navcontact{
+
+#navcontact {
   background-color: #A67C00;
 }
-#aboutUs{
+
+#aboutUs {
   background-color: #A67C00;
-  font-family: 'Love Ya Like A Sister',cursive;
+  font-family: 'Love Ya Like A Sister', cursive;
+}
+
+#submitbutton {
+  background-color: #A67C00;
+}
+
+#deliverPizza,
+#contactform {
+  display: none;
+}
+
+#newContact {
+  color: transparent;
+}
+
+#icon {
+  padding-left: 46%;
+  padding-top: 2%;
 }
