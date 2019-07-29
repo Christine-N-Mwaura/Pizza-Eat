@@ -105,6 +105,7 @@ $(document).ready(function() {
     var inputtedEmailAddress = $("input#email-address").val();
     var inputtedPhoneNumber = $("input#phone-number").val();
     alert(inputtedFirstName + " " + inputtedLastName + " Your order will be ready in 15mins and will be delivered in the next 20 mins")
+    $("#contactform").hide();
     var newContact = new Contact(inputtedFirstName, inputtedLastName, inputtedEmailAddress, inputtedPhoneNumber);
     $("ul#contacts").append("<li><span class='contact'>" + newContact.fullName() + "</span></li>");
     $("input#first-name").val("");

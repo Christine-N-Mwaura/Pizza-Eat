@@ -2,9 +2,9 @@
 #### {This application is a pizza site for a fictitious pizza restaurant called Pizza-Eat. It is to help Pizza Eat customers order pizza online.}, {Created on: 29/07/2019}
 #### By **{Christine Njeri}**
 ## Description
-{The site allows the user to make a pizza order and have it delivered to their location. The customer can also view the company's history in the about us section. Finally one can contact the company via the contact details on the contacts page and leave some feedback.You can view the site via this link.}
+{The site allows the user to make a pizza order and have it delivered to their location. The customer can also view the company's history in the about us section. Finally one can contact the company via the contact details on the contacts page and leave some feedback.You can view the site via this link https://christine-n-mwaura.github.io/Pizza-Eat/.}
 ## Setup/Installation Requirements
-* click this link to view the site.
+* click this link https://christine-n-mwaura.github.io/Pizza-Eat/ to view the site.
 * the site has buttons and navigation bars that allows one to easily navigate the site.
 * one can also clone or download the site's code from https://github.com/Christine-N-Mwaura/Pizza-Eat
 * then view it from a local computer using any preferred text editor
